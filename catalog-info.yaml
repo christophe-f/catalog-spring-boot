@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: catalog-spring-boot
+  description: |
+    coolstore-demo catalog-spring-boot
+  annotations:
+    github.com/project-slug: christophe-f/catalog-spring-boot
+spec:
+  type: website
+  owner: janus-authors
+  lifecycle: experimental
